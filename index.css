@@ -1,0 +1,308 @@
+body{
+    overflow-x: hidden;
+}
+.custom-nav{
+    z-index: 9999 !important;
+}
+.navbar-brand{
+    font-size: 30px !important;
+    margin-left: 19px !important;
+    margin-right: 470px !important;
+    color: white;
+
+}
+.parent-container{
+    margin: 0% !important;
+    width: 100%;
+}
+.nav{
+    background-color: #50708f;
+    width: 100%;
+    position: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.navbar-nav{
+    width: 100%;
+    margin-left: 0% !important;
+}
+.aboutUsSection{
+    margin-bottom: 100px !important;
+}
+#home{
+    background-color: #50708f;
+    width: 100%;
+    height: 630px;
+
+}
+.columns{
+    margin-top: 90px !important;
+}
+.hero{
+    width: 600px;
+    animation: moveUpDown 1s infinite alternate;
+}
+@keyframes moveUpDown{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(20px);
+    }
+}
+.abUS{
+    color: #104274;
+
+}
+.under{
+    width: 220px;
+    height: 2px;
+    position: relative;
+    left: 580px;
+    top:-40px ;
+    background-color: #c1c3c5;
+}
+.line{
+    background-color: #3276bb;
+    width: 75px;
+    height: 3px;
+    position: relative;
+    left: 640px;
+    top: -42px;
+}
+.accordion-item{
+    background-color: white !important;
+    color:  black!important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+.accordion-header{
+    font-weight: bold !important;
+    background-color: white!important;
+    color:  #234669!important;
+
+}
+.accordion-button:not(.collapsed){
+    background-color: white!important;
+    color:  #4d6a8a!important;
+    font-weight:bold;
+
+}
+.accordion-button{
+    background-color: white!important;
+    color:  #4a6683!important;
+    font-weight: bold;
+
+
+}
+.kraxy{
+    color:  #3c638a;
+}
+.why-us{
+    width: 500px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.aboutUs2{
+    background-color:  #f1f3f7;
+    height: 670px;
+}
+.aboutUs3{
+    width: 100%;
+}
+.skills{
+    width: 550px;
+    margin-left: 80px;
+}
+.outline{
+    width: 550px;
+    height: 15px;
+    background-color: rgb(161, 161, 161);
+}
+.inline{
+    width: 440px;
+    height: 15px;
+    background-color:  #3c638a;
+    animation: html 1s linear;
+}
+@keyframes html{
+    0%{
+        width: 0px;
+    }
+    80%{
+        width: 440px;
+    }
+}
+.span-wala{
+    margin-left: 430px;
+}
+
+.filled{
+    position: relative;
+    top: -40px;
+}
+
+
+
+.outline1{
+    width: 550px;
+    height: 15px;
+    background-color: rgb(161, 161, 161);
+}
+.inline1{
+    width: 330px;
+    height: 15px;
+    background-color:  #3c638a;
+    animation: css 1s linear;
+    }
+    @keyframes css {
+        0%{
+            width: 0px;
+        }
+        60%{
+            width: 330px;
+        }
+        
+    }
+.span-wala1{
+    margin-left: 450px;
+}
+
+.filled1{
+    position: relative;
+    top: -40px;
+}
+
+.outline2{
+    width: 550px;
+    height: 15px;
+    background-color: rgb(161, 161, 161);
+}
+.inline2{
+    width: 495px;
+    height: 15px;
+    background-color:  #3c638a;
+    animation: js 1s linear;
+    }
+    @keyframes js{
+        0%{
+            width: 0px;
+        }
+        90%{
+            width: 495px;
+        }
+        
+    }
+.span-wala2{
+    margin-left: 395px;
+}
+
+.filled2{
+    position: relative;
+    top: -40px;
+}
+
+
+.outline3{
+    width: 550px;
+    height: 15px;
+    background-color: rgb(161, 161, 161);
+}
+.inline3{
+    width: 181px;
+    height: 15px;
+    background-color:  #3c638a;
+    animation: ps 1s linear;
+    }
+    @keyframes ps{
+        0%{
+            width: 0px;
+        }
+        90%{
+            width: 181px;
+        }
+        
+    }
+.span-wala3{
+    margin-left: 386px;
+    
+}
+
+.filled3{
+    position: relative;
+    top: -40px;
+}
+
+.under1{
+    width: 220px;
+    height: 2px;
+    position: relative;
+    left: 580px;
+    top:10px ;
+    background-color: #c1c3c5;
+}
+.line1{
+    background-color: #3276bb;
+    width: 75px;
+    height: 3px;
+    position: relative;
+    left: 640px;
+    top: 8px;
+}
+.serv-div{
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) ;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.serv-div:hover{
+    transform: translateY(10px)
+
+}
+.girl{
+    width: 100%;
+    height: 100;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 12px;
+}
+.girl:hover{
+    transform: scaleX(1.04);
+    opacity: 0.8;
+
+}
+.dp2{
+    width: 130px;
+    height: 130px;
+    padding: 5px;
+    margin-left: 13px;
+    margin-top: 12px;
+}
+.text{
+    position: relative;
+    left: 150px;
+    top: -140px;
+}
+.card{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+.search-wala{
+    width: 500px;
+    height: 40px;
+    }
+.subs{
+    width: 150px;
+    height: 43px;
+    position: relative;
+    left: -60px;
+    top: -3px;
+}
+.last{
+    background-color:  #f1f3f7;
+    padding-top: 34px;
+    height: 300px;
+
+}
