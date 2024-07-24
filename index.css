@@ -281,6 +281,10 @@ body{
     margin-left: 13px;
     margin-top: 12px;
 }
+@media (max-width: 768px) {
+    /* Mobile styles */
+}
+
 .text{
     position: relative;
     left: 150px;
